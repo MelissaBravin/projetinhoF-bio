@@ -1,16 +1,33 @@
 html, body {
   height: 100%;
   width: 100%;
+  margin-top: 0;
+  margin-left: 0;
 }
 .menu{
-  height: 100px;
+  height: 50px;
   right: 100%;
   background-color: #297ea8;
+  display: flex;
+  justify-content: space-between;
+}
+.sunny{
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+}
+.sobre{
+  display: inline-block;
+  font-family: arial;
+  font-weight: bold;
+  color: white; 
 }
 .part1{
   height: 600px;
   right: 100%;
   background-color: #2fb2f4;
+  background-image: url(https://qph.cf2.quoracdn.net/main-qimg-7d299b0ac26edb8c34521da90280474b-lq);
+  background-size: contain;
 }
 .part2 {
 display: grid;
@@ -20,8 +37,11 @@ grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
 .div1 { 
-  background-color: black;
+  background-color: #20b2aa;
   height: 400px;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
 }
 .div2 { 
   background-color: #3d85a9;
@@ -38,10 +58,25 @@ grid-row-gap: 0px;
 .div6 { 
   background-color: #4a8a96;
 }
-.part3{
-  height: 600px;
-  right: 100%;
-  background-color: #0f91d2;
+.part3 {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.div11 { 
+  background-color: #adc7d7;
+  height: 400px;
+}
+.div12 { 
+  background-color: #84a0ae;
+}
+.div13 { 
+  background-color: #88c0ce;
+}
+.div14 { 
+  background-color: #8198c5;
 }
 .part4 {
 display: grid;
