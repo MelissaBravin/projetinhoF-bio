@@ -4,22 +4,21 @@ html, body {
   margin-top: 0;
   margin-left: 0;
 }
-.menu{
-  height: 50px;
-  right: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-}
+
 .sunny{
   font-family: arial;
   font-weight: bold;
   color: white;
   align-items: center;
 }
-.name{
+.main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #000000;
+  width: 100%;
 }
 .sobrelink{
   display: inline-block;
@@ -111,16 +110,19 @@ grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
 .div7 { 
-  background-color: #074a74;
+  background-color: white; 
   height: 300px;
 }
 .div8 { 
-  background-color: #3d85a9;
+  background-color: #074a74;
 }
 .div9 { 
-  background-color: #1db7dd;
+  background-color: #3d85a9;
 }
 .div10 { 
+  background-color: #1db7dd;
+}
+.div11 { 
   background-color: #345cad;
 }
 .rodape{
