@@ -3,6 +3,7 @@ html, body {
   width: 100%;
   margin-top: 0;
   margin-left: 0;
+  font-family: arial;
 }
 
 .sunny{
@@ -82,25 +83,22 @@ grid-row-gap: 0px;
 .div6 { 
   background-color: #4a8a96;
 }
-.part3 {
+.part5 {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(1, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
-.div11 { 
-  background-color: #adc7d7;
-  height: 400px;
-}
 .div12 { 
-  background-color: #84a0ae;
+  background-color: #ffffff; 
+  height: 600px;
 }
-.div13 { 
-  background-color: #88c0ce;
-}
-.div14 { 
-  background-color: #8198c5;
+.name{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: arial;
 }
 .part4 {
 display: grid;
@@ -110,7 +108,7 @@ grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
 .div7 { 
-  background-color: white; 
+  background-color: #3369d7; 
   height: 300px;
 }
 .div8 { 
@@ -125,12 +123,18 @@ grid-row-gap: 0px;
 .div11 { 
   background-color: #345cad;
 }
+
+
 .rodape{
-  height: 250px;
+  height: 350px;
   right: 100%;
   background-color: #1a4c66;
 }
-
+.final{
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 600px)
 {
